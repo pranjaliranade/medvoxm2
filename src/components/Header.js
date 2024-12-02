@@ -1,6 +1,4 @@
 import React from 'react';
-//import '../pages/Profile.css';
-import '../App.css';
 
 const Header = () => {
   return (
@@ -10,12 +8,9 @@ const Header = () => {
         <input type="text" placeholder="Search news..." />
         <button>Search</button>
       </div>
-      <div className="profile-link">
-        <a href="/profile">
+      <div className="user-profile">
         <img src="profile-pic-url" alt="User Profile" />
-        </a>
       </div>
-      
     </div>
   );
 };
